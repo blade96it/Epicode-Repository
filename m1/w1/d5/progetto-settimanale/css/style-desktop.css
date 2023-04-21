@@ -1,0 +1,181 @@
+/*Impostazioni generali*/
+body {
+    color:#393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.padding-lati {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.padding-top-grande {
+    padding-top: 70px;
+}
+/*Stile header*/
+header {
+    background: black;
+    width: 100%;
+}
+#logo-header {
+    width: 260px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+}
+/*Main*/
+
+/*Stile section 1*/
+#sezione1 {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#sezione1 h1 {
+    font-size: 2.5rem;
+    padding-top: 200px;
+}
+#sezione1 p {
+    padding-top: 20px;
+
+}
+#bottone-partiamo {
+    background-color:#f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:14px 32px 14px 32px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+#bottone-partiamo:hover{
+    background-color: #25a2c3;
+    cursor: pointer;
+}
+#div-bottone {
+    padding-top: 60px;
+    padding-bottom: 250px;
+}
+/*Stile section 2*/
+#sezione2{
+    height:1000px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#sezione2 h3{
+    font-size: 1.4rem;
+}
+.padding-bottom-titoli{
+    padding-bottom: 20px;
+}
+.padding-bottom-paragrafi{
+    padding-bottom: 25px;
+}
+#notebook{
+    width: 600px;
+    float: left;
+    border-radius: 350px;
+    margin-left: 15%;
+    margin-top: 200px;
+}
+#paragrafi2{
+    padding-top: 250px;
+    padding-left: 50%;
+    padding-right: 400px;
+}
+/*Stile section 3*/
+#sezione3{
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+}
+#contenitore-sezione3{
+    height: 500px;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+#sezione3 h2{
+    color: white;
+    font-size: 2.6rem;
+}
+#paragrafo-corsivo{
+    font-style: italic;
+    font-size: 2.4rem;
+}
+#mario{
+    font-size: 1.5rem;
+}
+#CEO{
+    font-size: 1.1rem;
+}
+/*Stile section 4*/
+#sezione4{
+    margin:20px;
+    height: 800px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.contenitore-immagine{
+    float: left;
+    text-align: center;
+    border: 1px solid #dee1e3;
+    width: 550px;
+    height: 600px;
+    margin: 120px 37px 0 37px;
+}
+.grandezza-immagine{
+    width: 100%; 
+    height: 420px;
+    object-fit: cover;
+}
+.padding-h4{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+/*Stile footer*/
+#footer{
+    background: #25a2c3;
+    color: #c8e7f0;
+    margin-top: 100px;
+}
+#contenitore-footer{
+    height: 500px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+#lista{
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size:1.4rem;
+}
+#footer #contattaci{
+    color: white;
+    font-size: 4.0rem;
+    padding-bottom: 20px;
+}
+#footer a{
+    color: #c8e7f0;
+}
+#colore-icona1{
+    color: white;
+}
+#colore-icona2{
+    color: white;
+}#colore-icona3{
+    color: white;
+}

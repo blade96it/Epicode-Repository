@@ -1,0 +1,64 @@
+@import "variables";
+@import "buttons";
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: $bordi0;
+    padding: $bordi0;
+    background-color: $coloreBluScuro;
+    color: $coloreGiallino;
+    font-family: $font;
+}
+
+.header {
+    border-bottom: 2px solid $coloreGiallino;
+    padding: 20px;
+    font-size: 20px;
+    h3 {
+        display: $inlineDisplay;
+        margin-left: $margin100;
+    }
+    ul {
+        list-style-type: $nienteDecorazioni;
+        margin: $bordi0;
+        float: $vaiADestra;
+        margin-right: $margin100;
+        li {
+            display: $inlineDisplay;
+            padding-right: 20px;
+            &:last-child {
+                padding-right: $bordi0;
+            }
+            & :hover {
+                color:aqua;
+            }
+            a {
+                text-decoration: $nienteDecorazioni;
+                color: $coloreGiallino;
+            }
+        }       
+    }
+}
+
+.main {
+    margin-top: $margin100;
+    img {
+        float: $vaiASinistra;
+        margin-left: $margin100;
+        margin-right: $margin100;
+    }
+    .container-testo {
+        margin-right: $margin100;
+        h1 {
+            font-size: 52px;
+        }
+        p {
+            font-size: 22px;
+            padding-bottom: 30px;
+        }
+    }
+}

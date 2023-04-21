@@ -1,0 +1,17 @@
+<div class="container">
+  <h5 *ngIf="loading" class="text-center mt-5">Recupero Task...</h5>
+  <h5 *ngIf="missingToDo" class="text-center mt-5">Oops, non ci sono Tasks</h5>
+
+<div class="text-center mt-5 mb-3">
+  <input #inputToDo>
+  <button (click)="aggiungiToDo()">+</button>
+</div>
+
+<div *ngFor="let todo of todosComponent; index as i">
+  <div *ngIf="!todo.completed">
+    <p class="text-center mt-1">- {{todo.title}} <input class="form-check-input" type="checkbox" value=""
+        id="flexCheckChecked" (click)="checkToDo(i)"></p>
+  </div>
+</div>
+
+</div>

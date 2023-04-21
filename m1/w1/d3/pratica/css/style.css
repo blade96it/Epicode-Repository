@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    margin:0;
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+main {
+    margin-top: 70px;
+}
+main, footer {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#focaccia {
+    width:100%;
+    border-radius: 15px;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#div-header {
+    text-align: center;
+    background-color: rgb(255 238 196 / 31%);
+    height:50px;
+    margin-top: 15px;
+    border-top: 2px solid;
+    border-color: rgb(255 227 163);
+}
+#p-header {
+    margin: 0;
+    padding-top: 15px;
+}
+.testo-centrato {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+}
+#descrizione-immagine {
+    color: grey;
+}
+#featured {
+    margin-bottom: 0;
+    color:#a72a2a;
+    font-weight: 600;
+}
+#link-featured {
+    margin-top: 0;
+}
+.blue-text{
+    color:#288989;
+}
+.padding-featured {
+    padding-left: 15px;
+}
+#border-featured {
+    border-left: 2px solid;
+    border-color: rgb(255 227 163);
+}
+.titoli-secondari {
+    margin-top: 60px;
+    border-bottom: solid 2px;
+    border-color: #49d1d154;
+}
+li {
+    margin-bottom: 20px;
+}
+#padding-titoletto {
+    padding-left: 30px;
+}
+#padding-descrizione {
+    padding-left: 50px;
+}

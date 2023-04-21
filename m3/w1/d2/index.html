@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secondo esercizio TypeScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row max-auto text-center mt-5">
+            <div class="col-6">
+                <h2>Conto corrente Madre</h2>
+                <h4>Intestatario: Filomena</h4>
+                <h5 id="saldo-madre"></h5>
+                <div>
+                    <input type="text" placeholder="Inserisci cifra" id="deposito-madre">
+                    <button class="mb-3" id="bottone-deposita-madre">Deposita</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="Inserisci cifra" id="prelievo-madre">
+                    <button class="mb-3" id="bottone-prelievo-madre">Preleva</button>
+                </div>
+                <div>
+                    <button class="mb-2" id="bottone-interesse">Calcola interesse</button>
+                </div>
+                <p id="interesse1"></p>
+                <p id="interesse2"></p>
+            </div>
+            
+            <div class="col-6">
+                <h2>Conto corrente Figlio</h2>
+                <h4>Intestatario: Peppino</h4>
+                <h5 id="saldo-figlio"></h5>
+                <div>
+                    <input type="text" placeholder="Inserisci cifra" id="deposito-figlio">
+                    <button class="mb-3" id="bottone-deposita-figlio">Deposita</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="Inserisci cifra" id="prelievo-figlio">
+                    <button id="bottone-prelievo-figlio">Preleva</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logica.js"></script>
+</body>
+
+</html>

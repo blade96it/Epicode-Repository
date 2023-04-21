@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.navigation-bar {
+    display: flex;
+    background-color: #fcf7e2;
+    color: #672106;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    justify-content: space-around;
+}
+.navigation-bar ul {
+    list-style-type: none;
+    display: flex;
+    padding:20px; 
+    align-items: center; 
+    
+}
+.navigation-bar li {
+    background-color: #f3df86;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 0.5em;
+    font-size: 0.8em;
+}
+.navigation-bar #shop-li {
+}

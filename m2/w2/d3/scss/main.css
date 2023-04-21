@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Solway&display=swap");
+button {
+  padding: 20px;
+  font-family: "Solway", serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(186, 186, 49);
+  color: rgb(12, 9, 61);
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: antiquewhite;
+  transform: scale(1.2);
+}
+
+.bottone1 {
+  margin-right: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(12, 9, 61);
+  color: rgb(186, 186, 49);
+  font-family: "Solway", serif;
+}
+
+.header {
+  border-bottom: 2px solid rgb(186, 186, 49);
+  padding: 20px;
+  font-size: 20px;
+}
+.header h3 {
+  display: inline;
+  margin-left: 100px;
+}
+.header ul {
+  list-style-type: none;
+  margin: 0px;
+  float: right;
+  margin-right: 100px;
+}
+.header ul li {
+  display: inline;
+  padding-right: 20px;
+}
+.header ul li:last-child {
+  padding-right: 0px;
+}
+.header ul li :hover {
+  color: aqua;
+}
+.header ul li a {
+  text-decoration: none;
+  color: rgb(186, 186, 49);
+}
+
+.main {
+  margin-top: 100px;
+}
+.main img {
+  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.main .container-testo {
+  margin-right: 100px;
+}
+.main .container-testo h1 {
+  font-size: 52px;
+}
+.main .container-testo p {
+  font-size: 22px;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */

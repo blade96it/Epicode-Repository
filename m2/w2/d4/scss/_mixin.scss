@@ -1,0 +1,10 @@
+@mixin coloraTesto($color) {
+    color: $color;
+}
+@mixin grandezzaTesto($size) {
+    font-size: $size;
+}
+@mixin paddingLaterale($left, $right) {
+    padding-left: $left;
+    padding-right: $right;
+}

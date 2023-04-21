@@ -1,0 +1,177 @@
+@import "variables";
+@import "mixin";
+@import "functions";
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/*Test funzione sul testo del body*/
+body {
+    color: setColoreTesto(green);
+}
+
+/*Impostazioni header*/
+.header {
+    background: $mainColor;
+    z-index: 9999;
+    a {
+        font-family: 'Rubik', sans-serif;
+    }
+    .navbar-brand {
+        @include coloraTesto ($whiteColor);
+    }
+    ul {
+        .nav-link.active {
+            @include coloraTesto ($whiteColor);
+        }
+        .nav-link {
+            @include coloraTesto ($inactiveColor);
+        }
+    }
+}
+
+/*Impostazioni banner section*/
+.main {
+    font-family: 'Lora', serif;
+    .banner {
+        background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");
+        background-size: cover;
+        background-position: center;
+        @media screen and (max-width: 767px) {
+            height: 100vh;
+        }
+        div {
+            padding-bottom: 36%;
+            line-height: 1.2;
+            h1 {
+                @media screen and (max-width: 362px) {
+                    @include grandezzaTesto (23px);
+                }
+                @media screen and (min-width: 768px) {
+                    @include grandezzaTesto (32px);
+                }
+                @media screen and (min-width: 992px) {
+                    @include grandezzaTesto (42px);
+                }
+                @media screen and (min-width: 1400px) {
+                    @include grandezzaTesto (52px);
+                }
+            }
+            p {
+                @media screen and (min-width: 768px) {
+                    @include grandezzaTesto (15px);
+                }
+                @media screen and (min-width: 992px) {
+                    @include grandezzaTesto (18px);
+                }
+                @media screen and (min-width: 1400px) {
+                    @include grandezzaTesto (23px);
+                }
+            }
+            button {
+                background: $mainColor;
+                @include coloraTesto ($whiteColor);
+                @media screen and (min-width: 768px) {
+                    @include grandezzaTesto (12px);
+                }
+                @media screen and (min-width: 992px) {
+                    @include grandezzaTesto (15px);
+                }
+                @media screen and (min-width: 1400px) {
+                    @include grandezzaTesto (20px);
+                }
+            }
+        }
+    }
+}
+
+/*Impostazioni jobs section*/
+.main {
+    .jobs {
+        div {
+            background-color: $svgColor;
+            @media screen and (min-width: 576px) {
+                @include paddingLaterale(120px, 120px);
+            }
+            @media screen and (min-width: 992px) {
+                @include paddingLaterale(0px, 0px);
+            }
+        }
+    }
+}
+
+/*Impostazioni partnership section*/
+.main {
+    .partnership {
+        h2 {
+            @include grandezzaTesto (52px);
+            @media screen and (max-width: 576px) {
+                @include grandezzaTesto (40px);
+            }
+        }
+        img {
+            @media screen and (max-width: 992px) {
+                width: 200px;
+            }
+            @media screen and (max-width: 576px) {
+                width: 160px;
+            }
+            @media screen and (min-width: 1600px) {
+                width: 300px;
+            }
+        }
+    }
+}
+
+/*Impostazioni carousel section*/
+.main {
+    .carosello {
+        .carousel-item {
+            font-family: 'Rubik', sans-serif;
+            @media screen and (min-width: 320px) {
+                @include paddingLaterale(50px, 50px);
+            }
+            @media screen and (min-width: 576px) {
+                @include paddingLaterale(80px, 80px);
+            }
+            @media screen and (min-width: 768px) {
+                @include paddingLaterale(120px, 120px);
+            }
+            @media screen and (min-width: 992px) {
+                @include paddingLaterale(200px, 200px);
+            }
+        }
+        h2 {
+            @include grandezzaTesto (52px);
+            @media screen and (max-width: 576px) {
+                @include grandezzaTesto (40px);
+            }
+        }
+        img {
+            width: 80px;
+        }
+        p {
+            @include grandezzaTesto (18px);
+        }
+    }
+}
+
+/*Impostazioni sfondo icona del carosello per lo swipe*/
+.sfondo-icona {
+    background-color: rgba(93,40,206,1);
+    @media screen and (max-width: 992px) {
+        background-color: white;
+    }
+}
+
+/*Impostazioni footer*/
+.footer {
+    background: $mainColor;
+    @include coloraTesto ($whiteColor);
+    font-family: 'Rubik', sans-serif;
+    .div {
+        .div {
+            padding-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcolatrice - God Of War Ragnarok</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="assets/img/logo.png" alt="Logo ufficiale God of War Ragnarok">
+        <h1>La Calcolatrice Ufficiale</h1>
+    </header>
+    <div id="calcolatrice">
+        <div id="tastierino">
+            <input class="tasti-grandi" type="text" id="numeri">
+            <div class="tasti" data-simbolo="7" onclick="inputTastierino(this)">7</div>
+            <div class="tasti" data-simbolo="8" onclick="inputTastierino(this)">8</div>
+            <div class="tasti" data-simbolo="9" onclick="inputTastierino(this)">9</div>
+            <div class="tasti" id="diviso" data-simbolo="/" onclick="inputTastierino(this)"><i class="fas fa-divide"></i></div>
+            <div class="tasti" data-simbolo="4" onclick="inputTastierino(this)">4</div>
+            <div class="tasti" data-simbolo="5" onclick="inputTastierino(this)">5</div>
+            <div class="tasti" data-simbolo="6" onclick="inputTastierino(this)">6</div>
+            <div class="tasti" data-simbolo="*" onclick="inputTastierino(this)">X</div>
+            <div class="tasti" data-simbolo="1" onclick="inputTastierino(this)">1</div>
+            <div class="tasti" data-simbolo="2" onclick="inputTastierino(this)">2</div>
+            <div class="tasti" data-simbolo="3" onclick="inputTastierino(this)">3</div>
+            <div class="tasti" data-simbolo="-" onclick="inputTastierino(this)">-</div>
+            <div class="tasti" onclick="svuota()">C</div>
+            <div class="tasti" data-simbolo="0" onclick="inputTastierino(this)">0</div>
+            <div class="tasti" data-simbolo="." onclick="inputTastierino(this)">.</div>
+            <div class="tasti" data-simbolo="+" onclick="inputAddizione(this)">+</div>
+            <div class="tasti-grandi" id ="uguale" onclick="tot()">=</div>
+        </div>
+        <div id="tastierino-scientifico">
+            <p id="scientifica">Scientifica</p>
+            <div class="tasti tasti-scientifici" id="radice" onclick="radiceQuadrata()"><i class="fas fa-square-root-alt"></i></div>
+            <div class="tasti tasti-scientifici" onclick="calcoloSeno()">sen</div>
+            <div class="tasti tasti-scientifici" onclick="calcoloCoseno()">cos</div>
+            <div class="tasti tasti-scientifici" onclick="calcoloLogaritmo()">log</div>
+            <div class="tasti tasti-scientifici" onclick="calcoloTangente()">tan</div>
+            <div class="tasti tasti-scientifici" onclick="calcoloExp()">exp</div>
+            <div class="tasti tasti-scientifici tastia4" onclick="calcoloCosenoIperbolico()">cosh</div>
+            <div class="tasti tasti-scientifici tastia4" onclick="calcoloLogaritmo10()">log10</div>
+            <div class="tasti tasti-scientifici tastia4" onclick="calcoloTangenteIperbolica()">tanh</div>
+            <div class="tasti tasti-scientifici tastia4" onclick="calcoloArcoseno()">asen</div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

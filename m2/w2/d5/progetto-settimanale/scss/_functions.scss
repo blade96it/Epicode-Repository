@@ -1,0 +1,11 @@
+/*Definisco la funzione per il cambio di luminosità*/
+$brightness: 51;
+
+@function setColoreTesto($color) {
+    @if  $brightness <= 50 {
+            @return $color;
+    }
+    @else {
+        @return black;
+    }
+}

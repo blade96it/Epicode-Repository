@@ -1,0 +1,162 @@
+/*Impostazioni generali*/
+body {
+    color:#393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.padding-lati {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.padding-top-grande {
+    padding-top: 70px;
+}
+/*Stile header*/
+header {
+    background: black;
+}
+#logo-header {
+    width: 160px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+/*Main*/
+
+/*Stile section 1*/
+#sezione1 {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+#sezione1 h1 {
+    font-size: 2.5rem;
+    
+    line-height: 1.0;
+}
+#sezione1 p {
+    padding-top: 20px;
+
+}
+#bottone-partiamo {
+    background-color:#f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:14px 32px 14px 32px;
+    text-decoration: none;
+}
+#bottone-partiamo:hover{
+    background-color: #25a2c3;
+    cursor: pointer;
+}
+#div-bottone {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/*Stile section 2*/
+#sezione2 h3{
+    font-size: 1.4rem;
+}
+.padding-top-p{
+    padding-top: 14px;
+}
+.padding-top-h{
+    padding-top: 30px;
+}
+#notebook{
+    width: 300px;
+    border-radius: 350px;
+    padding-top: 30px;
+}
+/*Stile section 3*/
+#sezione3{
+    background-color: #e22d0e;
+    color: white;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+#sezione3 h2{
+    color: white;
+    font-size: 2.2rem;
+}
+#paragrafo-corsivo{
+    font-style: italic;
+}
+#mario{
+    font-size: 1.4rem;
+}
+#CEO{
+    font-size: 1.0rem;
+}
+/*Stile section 4*/
+#sezione4{
+    margin:20px;
+}
+.bordo-scheda{
+    border: 1px solid #dee1e3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 430px;
+    overflow:auto;
+    margin-bottom: 40px;
+}
+#scheda1 {
+    background-image: url(../images/foto1.jpg);
+}
+#scheda2 {
+    background-image: url(../images/foto2.jpg);
+}
+#scheda3 {
+    background-image: url(../images/foto3.jpg);
+}
+.titoletto-scheda{
+    padding-top: 300px;
+}
+.padding-lati-schede{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Stile footer*/
+#footer{
+    background: #25a2c3;
+    color: #c8e7f0;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#footer #contattaci{
+    color: white;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+#footer a{
+    color: #c8e7f0;
+}
+#contenitore-trafiletto {
+    margin-top: 30px;
+}
+#bordo-trafiletto{
+    display: inline-block;
+    border-top: 1px solid white;
+    padding-top: 30px;
+    font-size: 1.1rem;
+}
+#colore-icona1{
+    color: white;
+}
+#colore-icona2{
+    color: white;
+}#colore-icona3{
+    color: white;
+}

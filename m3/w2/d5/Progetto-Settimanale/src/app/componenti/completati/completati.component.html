@@ -1,0 +1,7 @@
+<h5 *ngIf="loading" class="text-center mt-5">Recupero Task...</h5>
+
+<div *ngFor="let todo of todosComponent">
+  <div *ngIf="todo.completed">
+    <p class="text-center mt-1">- {{todo.title}}</p>
+  </div>
+</div>

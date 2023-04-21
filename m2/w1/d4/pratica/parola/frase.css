@@ -1,0 +1,52 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container-testo {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+#testoAlternato {
+    display: flex;
+    border: 4px solid rgb(88, 83, 83);
+    width: 1000px;
+    padding: 40px;
+    line-height: 1.3;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.parole {
+    color: cadetblue;
+}
+.parole:after {
+    content:"";
+    animation: ruota 10s ease-in forwards;
+  }
+  @keyframes ruota {
+    0%  { content:"single page app";
+          opacity: 0;}
+    20% {opacity: 1;}
+    30% {opacity: 0;}
+    50% { content:"interface web";
+        opacity: 1;}
+    60% {opacity: 0;}
+    70% {content:"app native";}
+    80% {opacity: 1;}
+    100% {content:"app native.";}
+}
+

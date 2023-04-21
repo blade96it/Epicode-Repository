@@ -1,0 +1,24 @@
+/*Impostazioni generali*/
+body{
+    background-color: dodgerblue;
+    color:aliceblue;
+    font-size: 1.2rem;
+}
+/*Stile header*/
+header{
+    height: 100px;
+}
+#loghi{
+    width: 150px;
+}
+#contenitore-immagine{
+    height: auto;
+    width: auto;
+    float: left;
+}
+#contenitore-testo{
+    height: auto;
+    width: auto;
+    float: left;
+    padding-left: 20px; 
+}

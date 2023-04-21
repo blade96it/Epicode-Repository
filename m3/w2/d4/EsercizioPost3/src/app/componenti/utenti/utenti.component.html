@@ -1,0 +1,9 @@
+<div class="d-grid gap-2 mb-3">
+  <button *ngFor="let utente of utenti" class="btn btn-outline-primary" type="button" [routerLink]="['/utenti', utente.id]">{{utente.nome}}</button>
+</div>
+
+<div *ngIf="!mostraUtente">
+  <h4>{{utenti[id-1].nome}}</h4>
+  <p>email: {{utenti[id-1].email}}</p>
+  <p>ruolo: {{utenti[id-1].ruolo}}</p>
+</div>

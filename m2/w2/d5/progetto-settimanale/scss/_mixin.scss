@@ -1,0 +1,13 @@
+/*Definisco un mixin per impostare il colore di un testo*/
+@mixin coloraTesto($colore) {
+    color: $colore;
+}
+/*Definisco un mixin per impostare la grandezza di un testo*/
+@mixin grandezzaTesto($size) {
+    font-size: $size;
+}
+/*Definisco un mixin per impostare il padding laterale*/
+@mixin paddingLaterale($left, $right) {
+    padding-left: $left;
+    padding-right: $right;
+}

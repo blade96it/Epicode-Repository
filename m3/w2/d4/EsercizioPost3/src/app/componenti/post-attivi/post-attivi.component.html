@@ -1,0 +1,13 @@
+<div *ngFor="let post of posts">  <!--Faccio ciclare tutti i post contenuti-->
+<div *ngIf="post.active" class="card mt-3" [ngStyle]="{'background-color': servizio.sceltaColore(post.id)[0], 'color' : servizio.sceltaColore(post.id)[1]}"> <!--Se i post sono attivi allora puoi creare le card-->
+  <div class="card-header">
+    <h5><span appEvidenziatore>Post</span></h5>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{post.title | toMaiuscolo}}</h5>
+    <p class="card-text">{{post.body}}</p>
+    <button type="button" class="btn btn-primary me-2" (click)="servizio.aggiornaAttivazione(post.id)">Disattiva</button>
+    <button type="button" class="btn btn-primary" [routerLink]="['/active-posts', post.id]">Dettagli</button>
+  </div>
+</div>
+</div>

@@ -1,0 +1,111 @@
+/*Impostazioni generali*/
+@font-face {
+    font-family: 'GODOFWAR';
+    src: url('/progetto-settimanale/assets/fonts/GODOFWAR.TTF') format('truetype');
+}
+body{
+    font-family: 'GODOFWAR';
+    font-size: 2rem;
+    background-image: url(/progetto-settimanale/assets/img/background.jpg);
+    background-size: cover;
+    color: #0054a7;
+}
+/*Stile header*/
+header{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#logo{
+    width:400px;
+    margin-bottom: 20px;
+}
+/*Stili calcolatrice*/
+#calcolatrice {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 13px #0054a7;
+    background-color: black;
+    margin:auto;
+    margin-top:30px;
+    box-sizing: border-box;
+    background-image: url(/progetto-settimanale/assets/img/kratos.png);
+    background-repeat: no-repeat;
+    background-size: 360px;
+    background-position: right bottom;
+}
+/*Imposto lo stile del tastierino classico*/
+#tastierino {
+    width: 47%;
+    padding-left: 5%;
+    padding-top: 4.2%;
+    display: inline-block;
+}
+/*Imposto lo stile del tastierino scientifico*/
+#tastierino-scientifico {
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3.0%;
+}
+#scientifica {
+    text-align: center;
+    padding-bottom: 12px;
+}
+.tasti {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #b4b3be;
+    margin-bottom: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    cursor:pointer;
+    color: #0054a7;
+}
+.tasti-scientifici{
+    font-size: 1.2rem;
+    padding-top: 25px;
+    
+}
+.tastia4{
+    padding-left: 8px;
+}
+.tasti:hover{
+    background-color: #b4b3be;
+}
+.tasti-grandi {
+    width: 87.5%;
+    height:50px;
+    margin-bottom: 20px;
+    font-family: 'GODOFWAR';
+    font-size: 2.2rem;   
+}
+#uguale {
+    border: 1px solid #b4b3be;
+    width: 89.4%;
+    margin-bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: #0054a7;
+}
+#uguale:hover{
+    background-color: #b4b3be;
+}
+#numeri {
+    background-color: #0054a7;
+    color: #b4b3be;
+}
+#diviso {
+    font-size: 1.8rem;
+}
+#radice {
+    font-size: 0.54em;
+}

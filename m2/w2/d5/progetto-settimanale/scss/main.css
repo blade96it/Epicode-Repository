@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*Definisco i colori della pagina con delle variabili*/ /*Definisco un mixin per impostare il colore di un testo*/
+/*Definisco un mixin per impostare la grandezza di un testo*/
+/*Definisco un mixin per impostare il padding laterale*/
+/*Definisco la funzione per il cambio di luminosità*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/*Test funzione sul testo del body*/
+body {
+  color: black;
+}
+
+/*Impostazioni header*/
+.header {
+  background: linear-gradient(0deg, rgb(93, 40, 206) 10%, rgb(119, 56, 228) 39%);
+  z-index: 9999;
+}
+.header a {
+  font-family: "Rubik", sans-serif;
+}
+.header .navbar-brand {
+  color: white;
+}
+.header ul .nav-link.active {
+  color: white;
+}
+.header ul .nav-link {
+  color: red;
+}
+
+/*Impostazioni banner section*/
+.main {
+  font-family: "Lora", serif;
+}
+.main .banner {
+  background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 767px) {
+  .main .banner {
+    height: 100vh;
+  }
+}
+.main .banner div {
+  padding-bottom: 36%;
+  line-height: 1.2;
+}
+@media screen and (max-width: 362px) {
+  .main .banner div h1 {
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .banner div h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .banner div h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .main .banner div h1 {
+    font-size: 52px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .banner div p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .banner div p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .main .banner div p {
+    font-size: 23px;
+  }
+}
+.main .banner div button {
+  background: linear-gradient(0deg, rgb(93, 40, 206) 10%, rgb(119, 56, 228) 39%);
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .main .banner div button {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .banner div button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .main .banner div button {
+    font-size: 20px;
+  }
+}
+
+/*Impostazioni jobs section*/
+.main .jobs div {
+  background-color: #f5f5f5;
+}
+@media screen and (min-width: 576px) {
+  .main .jobs div {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .jobs div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*Impostazioni partnership section*/
+.main .partnership h2 {
+  font-size: 52px;
+}
+@media screen and (max-width: 576px) {
+  .main .partnership h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .partnership img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .partnership img {
+    width: 160px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .main .partnership img {
+    width: 300px;
+  }
+}
+
+/*Impostazioni carousel section*/
+.main .carosello .carousel-item {
+  font-family: "Rubik", sans-serif;
+}
+@media screen and (min-width: 320px) {
+  .main .carosello .carousel-item {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .main .carosello .carousel-item {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .carosello .carousel-item {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .carosello .carousel-item {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+.main .carosello h2 {
+  font-size: 52px;
+}
+@media screen and (max-width: 576px) {
+  .main .carosello h2 {
+    font-size: 40px;
+  }
+}
+.main .carosello img {
+  width: 80px;
+}
+.main .carosello p {
+  font-size: 18px;
+}
+
+/*Impostazioni sfondo icona del carosello per lo swipe*/
+.sfondo-icona {
+  background-color: rgb(93, 40, 206);
+}
+@media screen and (max-width: 992px) {
+  .sfondo-icona {
+    background-color: white;
+  }
+}
+
+/*Impostazioni footer*/
+.footer {
+  background: linear-gradient(0deg, rgb(93, 40, 206) 10%, rgb(119, 56, 228) 39%);
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.footer .div .div {
+  padding-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */

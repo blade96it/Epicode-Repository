@@ -1,0 +1,23 @@
+button {
+    padding: $paddingBottone;
+
+    font: {
+        family: 'Solway', serif;
+        size: 16px;
+        weight: 600;
+    }
+
+    background-color: $coloreGiallino;
+    color: $coloreBluScuro;
+    border-radius: $formaBottone;
+    cursor: pointer;
+
+    &:hover {
+        background-color: antiquewhite;
+        transform: scale(1.2);
+    }
+}
+
+.bottone1 {
+    margin-right: $distanzaBottone;
+}

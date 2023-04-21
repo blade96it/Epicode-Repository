@@ -1,0 +1,11 @@
+<div *ngFor="let post of posts">  <!--Faccio ciclare tutti i post contenuti-->
+<div *ngIf="post.active" class="card mt-3"> <!--Se i post sono attivi allora puoi creare le card-->
+  <div class="card-header">
+    <h5>Post</h5>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{post.title}}</h5>
+    <p class="card-text">{{post.body}}</p>
+  </div>
+</div>
+</div>

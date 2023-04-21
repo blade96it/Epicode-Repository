@@ -1,0 +1,61 @@
+.logo {
+    width: 60px;
+}
+
+.card-titolo {
+    border: none;
+}
+
+.bordo-card {
+    border: 2px solid;
+}
+
+@media screen and (min-width: 320px) {
+    .contenitore-cards {
+        font-size: 10px;
+    }
+    .contenitore-cards a {
+        font-size: 10px;
+    }
+    .testo-centrato {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) {
+    .contenitore-cards {
+        font-size: 12px;
+    }
+    .contenitore-cards a {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .contenitore-cards {
+        font-size: 14px;
+    }
+    .contenitore-cards a {
+        font-size: 14px;
+    }
+    .berlino {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .offerta {
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) {
+    .contenitore-cards {
+        font-size: 16px;
+    }
+    .contenitore-cards a {
+        font-size: 16px;
+    }
+    .berlino {
+        display: flex;
+    }
+    .testo-giustificato {
+        text-align: left;
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.9em;
+}
+.post-it {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px, inset 0px -40px 100px rgba(0,0,0,0.3);
+}
+.post-it img {
+    width: 50px;
+}
+.post-it h3 {
+    margin-top: inherit;
+    font-weight: 600;
+    font-size: 2em;
+    flex: 1;
+}
+.post-it p {
+    flex: 1;
+}
+.post-gialli {
+    background-color: #f5f5c3;
+    transform: rotate(-3deg);
+    transition-duration: 1s;
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s; 
+}
+
+.post-gialli:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+}
+.post-verdi {
+    background-color: #c5f2c7;
+    transform: rotate(3deg);
+    transition-duration: 1s;
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+ 
+}
+.post-verdi:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+}
+.post-viola {
+    background-color: #c1c2eb;
+    transform: rotate(-5deg);
+    transition-duration: 1s;
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 3s;
+
+}
+.post-viola:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+}
+@keyframes slide {
+    0% {
+        transform: translateY(-900px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
